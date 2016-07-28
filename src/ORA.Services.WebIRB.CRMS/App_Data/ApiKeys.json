@@ -1,0 +1,4 @@
+﻿[{"Key":"6035F534-09A2-4B04-A3BD-A977C471227D","Description":"CRMSUsers", "Roles": ["CRMS"]},
+ {"Key":"E8592165-F13E-4EE6-88E1-677BE21BF5F8","Description":"ORISUsers", "Roles": ["Admin"]},
+ {"Key":"B35191E3-4B05-4F6F-9A34-F251E7351F2B","Description":"TestUsers", "Roles": []}
+]

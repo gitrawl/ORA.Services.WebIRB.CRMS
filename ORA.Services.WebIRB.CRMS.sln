@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORA.Services.WebIRB.CRMS", "src\ORA.Services.WebIRB.CRMS\ORA.Services.WebIRB.CRMS.csproj", "{E784EE83-6221-4C44-95AB-7486464DD571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{400A25E5-645F-4448-AF4A-250C9476340A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORA.Services.WebIRB.CRMS.Tests", "tests\ORA.Services.WebIRB.CRMS.Tests\ORA.Services.WebIRB.CRMS.Tests.csproj", "{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{27B3F102-F955-48D8-AC68-6AEB35C37153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{2C3B355E-E6D8-406E-8648-4A1F6D115FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORA.Services.WebIRB.CRMS.Tools", "tools\ORA.Services.WebIRB.CRMS.Tools\ORA.Services.WebIRB.CRMS.Tools.csproj", "{9A0E5D23-5433-47D1-99E9-70CDBACDA847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F7FA613-F722-496E-AF04-1802B6E8B7B8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://srvtfsap02prd:8080/tfs/srvtfsap02prd_test
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\ORA.Services.WebIRB.CRMS\\ORA.Services.WebIRB.CRMS.csproj
+		SccProjectTopLevelParentUniqueName1 = ORA.Services.WebIRB.CRMS.sln
+		SccProjectName1 = src/ORA.Services.WebIRB.CRMS
+		SccLocalPath1 = src\\ORA.Services.WebIRB.CRMS
+		SccProjectUniqueName2 = tests\\ORA.Services.WebIRB.CRMS.Tests\\ORA.Services.WebIRB.CRMS.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = ORA.Services.WebIRB.CRMS.sln
+		SccProjectName2 = tests/ORA.Services.WebIRB.CRMS.Tests
+		SccLocalPath2 = tests\\ORA.Services.WebIRB.CRMS.Tests
+		SccProjectUniqueName3 = tools\\ORA.Services.WebIRB.CRMS.Tools\\ORA.Services.WebIRB.CRMS.Tools.csproj
+		SccProjectTopLevelParentUniqueName3 = ORA.Services.WebIRB.CRMS.sln
+		SccProjectName3 = tools/ORA.Services.WebIRB.CRMS.Tools
+		SccLocalPath3 = tools\\ORA.Services.WebIRB.CRMS.Tools
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		PROD|Any CPU = PROD|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E784EE83-6221-4C44-95AB-7486464DD571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E784EE83-6221-4C44-95AB-7486464DD571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E784EE83-6221-4C44-95AB-7486464DD571}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{E784EE83-6221-4C44-95AB-7486464DD571}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{E784EE83-6221-4C44-95AB-7486464DD571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E784EE83-6221-4C44-95AB-7486464DD571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E784EE83-6221-4C44-95AB-7486464DD571} = {400A25E5-645F-4448-AF4A-250C9476340A}
+		{B3C67F8A-A10D-42E2-A6AD-EDDCDE2B4F25} = {27B3F102-F955-48D8-AC68-6AEB35C37153}
+		{9A0E5D23-5433-47D1-99E9-70CDBACDA847} = {2C3B355E-E6D8-406E-8648-4A1F6D115FD1}
+	EndGlobalSection
+EndGlobal
